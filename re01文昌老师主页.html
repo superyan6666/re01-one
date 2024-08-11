@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <!-- 文档类型声明（DOCTYPE），它告诉浏览器页面使用的HTML版本 -->
+<html lang="zh-CN">
+	<!-- 标签是HTML文档的根元素，它包裹着整个网页的所有内容。lang="zh-CN" 属性指定了页面的主要语言为中文（简体） -->
+<head>
+	<!--  元素，文档元数据，不会直接显示在页面，对页面的运行至关重要，如定义字符编码、页面标题、样式表。 -->
+	<meta charset="utf-8">
+	<!-- 标签定义了网页元信息。charset="utf-8" 指定页面使用 UTF-8 字符编码，支持多种语言包括中文。 -->
+	<title>加州靡情</title>
+	<!--  元素定义了浏览器工具栏标题，当网页添加到收藏夹时，显示在收藏夹中的标题，以及搜索引擎显示的标题。 -->
+	<link rel="stylesheet" href="template">
+	<!-- 标签用于链接样式表，这里它指向一个名为 template 的外部CSS文件。这个文件包含了页面的样式，比如字体、颜色和布局等。
+	可在后续被调用 -->
+</head>
+<!-- 标签标志着<head>元素的结束。 -->
+<body>
+	<!-- 页面开始的骨架元素，结构中包含了网页的所有可见内容，文本、图片、音视频等。 -->
+	<div style="
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px;
+	">
+	<!-- 元素定义了样式，包括背景颜色、文本对齐、内边距 -->
+		<img src='https://kangwenchang.com/logo.png' alt="康文昌" width="80px" height="80px">
+		<!-- <img>元素用于显示图片,其以链接形式引用。图片的源地址（src）是一个字符串 -->
+	</div>
+
+	<div style="
+	max-width: 700px;
+	margin: 30px auto;
+	padding: 15px;
+	line-heighr:1.7;
+	">
+	<!-- 定义了最大宽度、外边距（水平居中）、内边距和行高 -->
+		<p>我的网站</p>
+		<p>我的网站</p>
+		<p>我的网站</p>
+		<p>我的网站</p>
+		<p>我的网站</p>
+		<p>我的网站</p>
+		<p>我的网站</p>
+	</div>
+
+	<div style="
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px;
+	font-size: 12px;
+	">
+	<!-- 元素定义了背景颜色、文本对齐、内边距和字体大小。 -->
+	<p>我的网站</p>
+	<a href="https://kangwenchang.com/">友情链接</a>
+	<!-- 里面包含链接 -->
+	</div>
+</body>
+</html>
